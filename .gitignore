@@ -1,3 +1,15 @@
+# Local development
+.DS_Store
+*.code-workspace
+.vscode
+cnrDocs
+cnrSecret
+cnrTest
+images
+*.pdf
+.rest
+*alias
+
 # Logs
 logs
 *.log
