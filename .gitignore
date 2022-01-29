@@ -4,10 +4,8 @@
 .vscode
 cnrDocs
 cnrSecret
-cnrTest
 images
 *.pdf
-.rest
 *alias
 
 # Logs

@@ -1,0 +1,41 @@
+### 08 Prove: Assignment
+<!-- REST API
+
+    A REST API endpoint that sends all data requested by the frontend.
+    Based on entities extracted from the provided javascript file (/public/script.js)
+
+    Request Type:   GET
+    Endpoint:       /professional
+    Return Type:    application/json
+
+    JSON SCHEMA:
+    {
+        "professionalName":     "Carlos N Reina",
+        "base64Image":          base64Image,
+        "nameLink":             {"firstName": "Carlos", "url": "https://github.com/cnreina"},
+        "primaryDescription":   "Father, programmer, child at hart.",
+        "workDescription1":     "AV Design Engineer.",
+        "workDescription2":     "SCRUM Master.",
+        "linkTitleText":        "Links",
+        "linkedInLink":         {"text": "LinkedIn", "link": "https://www.linkedin.com/in/cnreina/"},
+        "githubLink":           {"text": "GitHub", "link": "https://github.com/cnreina"}
+    }
+
+    NOTES:
+    base64Image is uploaded from the local file system and sent as Base64 encoded.
+    A copy of the Base64 data is saved in the professional.txt file.
+    Both files reside in the data folder.
+
+    DEVELOPER:
+    Carlos N Reina
+    cnreina@gmail.com
+
+-->
+
+### TEST REQUESTS
+
+GET http://localhost:8080/professional HTTP/1.1
+
+###
+
+GET http://localhost:3000/professional HTTP/1.1
