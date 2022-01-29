@@ -4,6 +4,7 @@
     A REST API endpoint that sends all data requested by the frontend.
     Based on entities extracted from the provided javascript file (/public/script.js)
 
+    Repository:     https://github.com/cnreina/RestAPI-08
     Request Type:   GET
     Endpoint:       /professional
     Return Type:    application/json
